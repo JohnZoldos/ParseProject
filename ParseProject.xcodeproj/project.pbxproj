@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					49BEF7AC1F13211E00315863 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4DF9P7PV7J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -262,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DF9P7PV7J;
 				INFOPLIST_FILE = ParseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jzoldos.ParseProject;
@@ -274,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DF9P7PV7J;
 				INFOPLIST_FILE = ParseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jzoldos.ParseProject;
