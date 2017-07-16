@@ -24,6 +24,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://sleepy-wave-50655.herokuapp.com/parse"
             })
         )
+        
+        if PFUser.current() != nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: "ProfileViewController")
+            window?.rootViewController = viewController
+
+        }
+        
+        NotificationCenter.default.addObserver(forName: Notification.Name(rawValue: "UserDidLogout"), object: nil, queue: OperationQueue.main) { (Notification) in
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateInitialViewController()
+            self.window?.rootViewController = viewController
+        }
         return true
     }
 

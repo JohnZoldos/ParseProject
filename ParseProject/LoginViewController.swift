@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         /*let friend = PFObject(className: "Contact")
         friend["firstName"] = "Jack"
         friend["lastName"] = "Zoldos"
